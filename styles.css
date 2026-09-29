@@ -1,21 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 50px;
-    background-color: green;
-    color: purple;
-
-h1 {
-    color: green;
+  font-family: Arial, sans-serif;
+  margin: 100px;
+  background-color: green;
 }
 
-h2 {
-    color: green;
+h1, h2 {
+  color: purple;
+  text-align: center;
 }
 
 ul {
-    line-height: 1.6;
+  text-align: center;
+  list-style-position: inside;
+  padding: 0;
+  color: purple;
 }
 
 a {
-    color: green;
+  color: purple;
+}
+
+p {
+  text-align: center;
+  color: purple;
+}
+
+div {
+  background-image: url("https://t4.ftcdn.net/jpg/03/23/11/47/360_F_323114735_e8iJuC2ehg7LFwuo00XuxpPjMuoVk4uF.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 2px 2px 4px grey;
 }
